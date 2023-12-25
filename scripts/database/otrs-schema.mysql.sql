@@ -72,7 +72,7 @@ CREATE TABLE user_preferences (
 # ----------------------------------------------------------
 #  create table groups
 # ----------------------------------------------------------
-CREATE TABLE groups (
+CREATE TABLE `groups` (
     id INTEGER NOT NULL AUTO_INCREMENT,
     name VARCHAR (200) NOT NULL,
     comments VARCHAR (250) NULL,
