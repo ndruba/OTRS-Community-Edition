@@ -28,19 +28,19 @@ INSERT INTO users (id, first_name, last_name, login, pw, valid_id, create_by, cr
 # ----------------------------------------------------------
 #  insert into table groups
 # ----------------------------------------------------------
-INSERT INTO groups (id, name, comments, valid_id, create_by, create_time, change_by, change_time)
+INSERT INTO `groups` (id, name, comments, valid_id, create_by, create_time, change_by, change_time)
     VALUES
     (1, 'users', 'Group for default access.', 1, 1, current_timestamp, 1, current_timestamp);
 # ----------------------------------------------------------
 #  insert into table groups
 # ----------------------------------------------------------
-INSERT INTO groups (id, name, comments, valid_id, create_by, create_time, change_by, change_time)
+INSERT INTO `groups` (id, name, comments, valid_id, create_by, create_time, change_by, change_time)
     VALUES
     (2, 'admin', 'Group of all administrators.', 1, 1, current_timestamp, 1, current_timestamp);
 # ----------------------------------------------------------
 #  insert into table groups
 # ----------------------------------------------------------
-INSERT INTO groups (id, name, comments, valid_id, create_by, create_time, change_by, change_time)
+INSERT INTO `groups` (id, name, comments, valid_id, create_by, create_time, change_by, change_time)
     VALUES
     (3, 'stats', 'Group for statistics access.', 1, 1, current_timestamp, 1, current_timestamp);
 # ----------------------------------------------------------
